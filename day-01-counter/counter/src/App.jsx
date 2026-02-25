@@ -20,7 +20,7 @@ export const App = () => {
 
     window.addEventListener("keydown", handleKeyShortcut);
     return () => window.removeEventListener("keydown", handleKeyShortcut);
-  }, []);
+  }, [step]);
 
   return (
     <div className="container">
