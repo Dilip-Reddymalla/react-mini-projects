@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+}
+
+.App {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.container {
+  width: 90%;
+  max-width: 700px;
+  margin: 20px auto;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.input button {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  background-color: #4a90e2;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s ease;
+}
+
+.input button:hover {
+  background-color: #357bd8;
+}
+
+/* Search + Sort container */
+.srch {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Search input */
+.srch input {
+  flex: 1;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+/* Dropdown */
+.srch select {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Simple focus effect */
+.srch input:focus,
+.srch select:focus {
+  outline: none;
+  border-color: #4a90e2;
+}
